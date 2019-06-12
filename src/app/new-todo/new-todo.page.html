@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Thing</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-input type="text" [(ngModel)]='thing.description' placeholder="Title"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>done</ion-label>
+    <ion-checkbox slot="start" [(ngModel)]='thing.completed'></ion-checkbox>
+  </ion-item>
+  <br />
+  <ion-button (click)="onSave()" expand="full" class="ion-align-self-center">
+    Save
+  </ion-button>
+</ion-content>
