@@ -20,7 +20,7 @@ export class HomePage {
 
     // Design time data
     this.things = [
-      { description: "Buy milk", completed: false, userId: "pvc", type:"High" },
+      { description: "Run automation tests", completed: false, userId: "1", type:"High" },
     ];
 
     this.things = await this.service.listCollections();
