@@ -8,3 +8,6 @@ Add your cosmosdb endpoint,database,container name in the Cosmos-service.ts file
     private readonly primaryKey = "<primary_key>";
     private readonly database = "ToDoList";
     private readonly collection = "Items";
+    
+ #Blog
+ https://sajeetharan.com/2019/06/12/build-hybrid-apps-with-cosmos-db-ionic/
